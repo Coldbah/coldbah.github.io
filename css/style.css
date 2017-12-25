@@ -1,44 +1,42 @@
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('../fonts/subset-BebasNeueRegular.eot');
-    src: url('../fonts/subset-BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/subset-BebasNeueRegular.woff2') format('woff2'),
-        url('../fonts/subset-BebasNeueRegular.woff') format('woff'),
-        url('../fonts/subset-BebasNeueRegular.ttf') format('truetype'),
-        url('../fonts/subset-BebasNeueRegular.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: url(../img/bg.jpg) no-repeat center;
 }
-.text-box{
-	padding-top: 2rem;
+.box-size {
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  border: 1pt solid #939393;
 }
-.result {
-	margin-bottom: 0;
-	margin-top: 3rem;
+.box-items {
+  margin-top: 287px;
+  margin-bottom: 287px;
+  text-align: center;
 }
-.fonts {
-	font-size: 22px;
-	text-align: center;
-	padding: 2rem;
+.box-items__list {
+  font-size: 0;
 }
-small {
-	font-size: 1.3rem;
+.box-item {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  border: 1pt solid #939393;
+  background-color: #110e7c;
 }
-strong {
-	font-weight: 800;
+.box-item:hover {
+  background-color: #15129c;
 }
-.font-1 {
-	font-family: 'Roboto', sans-serif;
+.box-item__2 {
+  background-color: #d1e3ec;
 }
-
-.font-2 {
-font-family: 'Bebas Neue', sans-serif;
-
+.box-item__2:hover {
+  background-color: #eaf2f6;
 }
-.font-3 {
-font-family: 'Bad Script', cursive;
+.box-item__3 {
+  background-color: #3db8f5;
 }
-.font-4 {
-	font-family: 'Lobster', cursive;
+.box-item__3:hover {
+  background-color: #5fc4f7;
 }
