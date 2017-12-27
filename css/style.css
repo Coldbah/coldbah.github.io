@@ -1,42 +1,105 @@
 body {
-  margin: 0;
-  box-sizing: border-box;
-  background: url(../img/bg.jpg) no-repeat center;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
 }
-.box-size {
-  width: 48px;
-  height: 48px;
-  font-size: 0;
-  border: 1pt solid #939393;
+.header {
+  margin-top: 83px;
 }
-.box-items {
-  margin-top: 287px;
-  margin-bottom: 287px;
-  text-align: center;
+.header-caption {
+    font-size: 50px;
+    margin: 0;
 }
-.box-items__list {
-  font-size: 0;
+
+.header-caption__inner {
+    color: #fd8569;
 }
-.box-item {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  font-size: 0;
-  border: 1pt solid #939393;
-  background-color: #110e7c;
+
+.header-desc {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 113px;
 }
-.box-item:hover {
-  background-color: #15129c;
+
+.fa {
+    font-size: 51px;
 }
-.box-item__2 {
-  background-color: #d1e3ec;
+
+.work-items {
+    position: relative;
+    width: 263px;
+    text-align: center;
+    color: #fff;
+    background-color: #4eb2f7;
 }
-.box-item__2:hover {
-  background-color: #eaf2f6;
+
+.work-items__col-2 {
+    background-color: #c049f8;
 }
-.box-item__3 {
-  background-color: #3db8f5;
+
+.work-items__col-3 {
+    background-color: #817eff;
 }
-.box-item__3:hover {
-  background-color: #5fc4f7;
+
+.work-items__col-4 {
+    background-color: #f74770;
+}
+
+.fa-magnet {
+    padding-top: 53px;
+}
+
+.work-items__caption {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.work-items__desc {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 65px;
+    font-size: 15px;
+}
+
+.work-items__btn {
+    position: absolute;
+    top: 200px;
+    left: 18px;
+    width: 227px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 17px 61px 17px 50px;
+    border-radius: 27px;
+    box-shadow: 0 7px 50px rgba(0, 0, 0, 0.17);
+    background-color: #fff;
+}
+
+.fa-plus {
+    color: #000;
+    font-size: 16px;
+}
+
+.work-items__btn a {
+    font-size: 16px;
+    color: #000;
+    padding-left: 17px;
+    text-decoration: none;
+}
+
+.fa-bug {
+    padding-top: 53px;
+}
+
+.fa-cogs {
+    padding-top: 53px;
+}
+
+.fa-camera-retro {
+    padding-top: 53px;
+    transform-origin: 20px 75px;
+    transform: rotate(-25deg);
 }
