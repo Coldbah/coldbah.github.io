@@ -20,7 +20,11 @@
 	text-decoration: none;
 	font-size: 40px;
 	color: #aeaeae;
+	&:hover {
+		color: #fff;
+	}
 }
+
 .modal-overlay {
 	position: fixed;
 	display: none;
@@ -30,4 +34,26 @@
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.5);
+	&:target {
+		& + .modal-content-map {
+			display: block;
+		}
+		display: block;
+	}
+}
+h1 {
+  text-transform: uppercase;
+  color: #065baf;
+  text-align: center;
+}
+.btn {
+
+  padding: 5px 10px 5px 10px;
+  background-color: #065baf;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  &:hover {
+  	background-color: #4486f4;
+  }
 }
