@@ -2,70 +2,162 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parallax</title>
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <section class="section">
-        <div class="box">
-            <div class="caption">
-                <h2>Сохрани свой аккаунт</h2>
-                <h3>Получи бесплатно неограниченное количество форм, вопросов и ответов.</h3>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header-logo wow fadeInUp" data-wow-delay="1.3s">
+                        <a href="#"><img src="img/logo.png" alt="video_icon"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="main-navigation">
+                        <li class="wow fadeInLeftBig" data-wow-delay="0.5s"><a href="#">How it works</a></li>
+                        <li class="wow fadeInLeftBig" data-wow-delay="0.8s"><a href="#">About us</a></li>
+                        <li class="wow fadeInLeftBig" data-wow-delay="1.0s"><a href="#">Contact us</a></li>
+                        <li class="wow fadeInLeftBig" data-wow-delay="1.2s"><a href="price.html">Blog</a></li>
+                    </nav>
+                </div>
             </div>
-            <form class="tab-contents" action="ty.html">
-                
-                    <input class="form-1" id="name" type="text" name="name" value="" minlength="2" placeholder="Имя или никнейм">
-                    <input class="form-2" id="email" type="email" name="email" value="" minlength="7" placeholder="Email">
-                    <input class="form-3" id="password" type="password" name="password" value="" minlength="7" placeholder="Пароль">
-                
-                <button class="btn" type="submit">Сохранить</button>
-            </form>
-            <div class="login">
-                <p>Уже есть аккаунт?</p>
-                <a href="#">Войти</a>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main_cloud-tl" data-relative-input="true" id="scene">
+                <div data-depth="0.8"><img src="img/cloud-tl.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main-caption">
+                        <h1>
+                    Track your next fuel shops
+                </h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <div class="main_cloud-tr" data-relative-input="true" id="scene3">
+                        <div data-depth="0.3"><img src="img/cloud-tr.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main-desc">
+                        <h3>Monitor and Alert on all petrol bunks near to you</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="main-sign">
+                        <p>Signup For <a class="main-sign__link" href="#">FREE</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form class="main_form form-inline" role="form">
+                        <div class="main_form-group form-group wow fadeInLeft" data-wow-delay="1.3s">
+                            <label class="sr-only" for="exampleInputEmail2">Your E-mail Adress</label>
+                            <input type="email" class="main_form-control form-control form-left" id="exampleInputEmail2" placeholder="Your E-mail Adress">
+                        </div>
+                        <button type="submit" class="main_btn btn btn-default wow fadeInRight" data-wow-delay="1.7s">Signup</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main_cloud-tl" data-relative-input="true" id="scene1">
+                        <div data-depth="0.2"><img src="img/cloud-bl.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <div class="main_cloud-br" data-relative-input="true" id="scene4">
+                        <div data-depth="1.0"><img src="img/cloud-br.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <script src="jquery/jquery-1.12.4.min.js "></script>
-    <script src="jquery/jquery.validate.min.js"></script>
+    <section class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1-5">
+                    <div class="box-item box-item_1">
+                        <img src="img/evertone.png" width="169" height="31" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-1-5">
+                    <div class="box-item box-item_2">
+                        <img src="img/microsoft.png" width="142" height="31" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-1-5">
+                    <div class="box-item box-item_3">
+                        <img src="img/google.png" width="131" height="36" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-1-5">
+                    <div class="box-item box-item_4">
+                        <img src="img/sony.png" width="132" height="31" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-1-5">
+                    <div class="box-item box-item_5">
+                        <img src="img/firefox.png" width="169" height="31" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script>
-    $('form').validate({
-        rules: {
-            name: {
-                required: true,
-                minLenght: 2
-            },
-            email: {
-                required: true,
-                minlength: 7,
-                email: true
-            },
-            password: {
-                required: true,
-                minlength: 7,
-                password: true
-            }
-        },
-        messages: {
-            name: {
-                required: 'Это поле обязательно для заполнения!',
-                minlength: 'Не менее 2 символов'
-            },
-            email: {
-                required: 'Это поле обязательно для заполнения!',
-                minlength: 'Не менее 7 символов',
-                email: 'Введите корректный email'
-            },
-            password: {
-                required: 'Это поле обязательно для заполнения!',
-                minlength: 'Не менее 7 символов',
-                email: 'Введите корректный пароль'
-            }
-        }
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
     });
+    var scene = document.getElementById('scene1');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+    var scene = document.getElementById('scene3');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+    var scene = document.getElementById('scene4');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+    </script>
+    <script>
+    new WOW().init();
     </script>
 </body>
 
