@@ -1,10 +1,10 @@
 <ifModule mod_expires.c>
 
 # Add correct content-type for fonts
-AddType application/vnd.ms-fontobject .eot
-AddType application/x-font-ttf .ttf
-AddType application/x-font-opentype .otf
-AddType application/x-font-woff .woff
+AddType fonts/vnd.ms-fontobject .eot
+AddType fonts/x-font-ttf .ttf
+AddType fonts/x-font-opentype .otf
+AddType fonts/x-font-woff .woff
 AddType image/svg+xml .svg
 
 # Compress compressible fonts
@@ -21,20 +21,20 @@ ExpiresByType image/gif "access plus 2592000 seconds"
 ExpiresByType image/svg+xml "access plus 2592000 seconds"
 
 # Cache Fonts
-ExpiresByType application/vnd.ms-fontobject "access plus 2592000 seconds"
-ExpiresByType application/x-font-ttf "access plus 2592000 seconds"
-ExpiresByType application/x-font-opentype "access plus 2592000 seconds"
-ExpiresByType application/x-font-woff "access plus 2592000 seconds"
+ExpiresByType fonts/vnd.ms-fontobject "access plus 2592000 seconds"
+ExpiresByType fonts/x-font-ttf "access plus 2592000 seconds"
+ExpiresByType fonts/x-font-opentype "access plus 2592000 seconds"
+ExpiresByType fonts/x-font-woff "access plus 2592000 seconds"
 ExpiresByType image/svg+xml "access plus 2592000 seconds"
 
 # Cache other content types (Flash, CSS, JS, HTML, XML)
 ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
-ExpiresByType text/css "access plus 604800 seconds"
-ExpiresByType text/javascript "access plus 2592000 seconds"
-ExpiresByType application/javascript "access plus 2592000 seconds"
-ExpiresByType application/x-javascript "access plus 2592000 seconds"
-ExpiresByType text/html "access plus 600 seconds"
-ExpiresByType application/xhtml+xml "access plus 600 seconds"
+ExpiresByType css/css "access plus 604800 seconds"
+ExpiresByType js/javascript "access plus 2592000 seconds"
+ExpiresByType js/javascript "access plus 2592000 seconds"
+ExpiresByType js/x-javascript "access plus 2592000 seconds"
+ExpiresByType html "access plus 600 seconds"
+ExpiresByType xhtml+xml "access plus 600 seconds"
 
 </ifModule>
 
